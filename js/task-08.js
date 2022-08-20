@@ -1,8 +1,7 @@
 
-
 const form = document.querySelector(".login-form");
 
-// 1. Version 1
+// 1. First version 
 
 const onFormSubmit = (event) => {
   event.preventDefault();
@@ -27,7 +26,7 @@ const onFormSubmit = (event) => {
 form.addEventListener("submit", onFormSubmit);
 
 
-// 2. Version 2
+// 2. Second version
 
 // const onFormSubmit = (event) => {
 //     event.preventDefault();

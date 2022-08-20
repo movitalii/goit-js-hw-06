@@ -1,3 +1,4 @@
+
 let counterValue = 0;
 
 const increaseValueBtn = document.querySelector('[data-action="increment"]');
