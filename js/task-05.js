@@ -9,5 +9,9 @@ const spanEl = document.querySelector('#name-output');
 inputEl.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
-    spanEl.textContent = event.currentTarget.value
+    spanEl.textContent = event.currentTarget.value;
+
+    if (event.currentTarget.value === "") {
+        spanEl.textContent = "Anonymus";
+    }
 }
