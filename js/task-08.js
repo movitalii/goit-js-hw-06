@@ -19,7 +19,10 @@ const onFormSubmit = (event) => {
         password: pass.value,
     };
 
-    console.log(formData);
+    if (mail.value !== "" && pass.value !== "") {
+        console.log(formData);
+    }
+    
     event.currentTarget.reset();
 }
 
